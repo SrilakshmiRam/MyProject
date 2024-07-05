@@ -1,0 +1,35 @@
+.listItem-container {
+  width: 720px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.li-container {
+  width: 640px;
+  border: 1px solid #d1dbdb;
+  padding-right: 10px;
+}
+
+.country-name {
+  text-align: left;
+  font-size: 14px;
+  padding-left: 70px;
+}
+
+.code-name {
+  margin-left: 10px;
+  font-size: 12px;
+  padding-left: 70px;
+  text-align: left;
+}
+
+.terminals-count {
+  font-size: 12px;
+  padding-left: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+

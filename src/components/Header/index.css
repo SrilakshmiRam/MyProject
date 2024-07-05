@@ -1,0 +1,39 @@
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 30px;
+  box-shadow: 0px 1px 0px 0px #d1dbdb;
+  width: 95%;
+}
+
+.image {
+  width: 32px;
+  height: 32px;
+  top: 14px;
+  left: 1848px;
+  gap: 0px;
+  border-radius: 50px;
+  opacity: 0px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: 800;
+  width: 300px;
+  height: 20px;
+  top: 20px;
+  left: 20px;
+  gap: 0px;
+  opacity: 0px;
+  color: #000000;
+}
+
+@media screen and (min-width: 575px) {
+  .blog-title {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 34px;
+  }
+}
